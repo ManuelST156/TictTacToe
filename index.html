@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MEMORY GAME</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+       <section class="section1">
+        <h1>TIC TAC TOE</h1>
+        <table>
+            <tr>
+                <td><button id="0" onclick="juego(0,0,0)"></button></td>
+                <td><button id="1" onclick="juego(0,1,1)"></button></td>
+                <td><button id="2" onclick="juego(0,2,2)"></button></td>
+                
+            </tr>
+
+            <tr>
+                <td><button id="3" onclick="juego(1,0,3)"></button></td>
+                <td><button id="4" onclick="juego(1,1,4)"></button></td>
+                <td><button id="5" onclick="juego(1,2,5)"></button></td>
+                
+            </tr> 
+
+            <tr>
+                <td><button id="6" onclick="juego(2,0,6)"></button></td>
+                <td><button id="7" onclick="juego(2,1,7)"></button></td>
+                <td><button id="8" onclick="juego(2,2,8)"></button></td>
+                
+            </tr>
+
+        
+
+            
+        </table>
+
+       </section>
+
+
+       <section class="section2">
+        <h2 class="estadisticas" id="Turno">Turno: X</h2>
+        <h2 class="estadisticas" id="Tiempo">Tiempo: 00 s</h2>
+        <h2 class="estadisticas" id="Ganador">Ganador: -</h2>
+
+       </section>
+    </main>
+
+    <footer>
+        <p>&copy; creado por Manuel Sanchez</p>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
